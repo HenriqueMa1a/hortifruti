@@ -1,0 +1,82 @@
+
+main h2 p{
+
+    text-align: center;
+    color: rgb(87, 87, 175);
+    font-weight: 500;
+    
+}
+
+main .banner-principal{
+    text-align: center;
+}
+main .banner-home{
+    width: 80%;
+    margin-bottom: 20px;
+}
+main .conheça{
+    padding: 0 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*inicio quadrante historia */
+main .conheça .historia{
+    border-radius: 15px;
+    background: rgba(192, 209, 224, 70%);
+    width: 250px;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    transition: 1s all;
+}
+main .conheça .historia:hover{
+    transform: scale(1.4);
+}
+
+main .conheça .historia h3{
+    text-align: center;
+}
+
+/* inicio quadrante premios*/
+
+main .conheça .premios{
+    border-radius: 15px;
+    background: rgba(192, 209, 224, 70%);
+    width: 250px;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    transition: 1s all;
+
+}
+main .conheça .premios:hover{
+    transform: scale(1.4);
+}
+
+main .conheça .premios h3{
+    text-align: center;
+}
+ main .conheça .premios p em {
+     font-weight: bold;
+ }
+
+ /*inicio quadrante valores*/
+
+ main .conheça .valores{
+    border-radius: 15px;
+    background: rgba(192, 209, 224, 70%);
+    width: 250px;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    transition: 1s all;
+ }
+
+ main .conheça .valores:hover{
+    transform: scale(1.4);
+}
+
+main .conheça .valores h3{
+    text-align: center;
+}
