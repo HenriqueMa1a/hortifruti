@@ -1,0 +1,11 @@
+.conheca__conteudo{
+    background: rgb(250, 225, 225);
+    margin-right: 1rem;
+    padding: 1.25rem;
+    width: calc(33% - 7rem);
+    border-radius: 15px;
+}
+
+.conheca__conteudo:last-child{
+    margin-right: 0;
+}

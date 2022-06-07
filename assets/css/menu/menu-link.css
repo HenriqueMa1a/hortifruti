@@ -1,0 +1,22 @@
+.menu__link{
+    color: #fdfdfd;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1587rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-decoration: none;
+    text-transform: lowercase;
+        
+}
+.menu__link.ativo{
+    color: rgb(69, 96, 187);
+}
+
+.menu__link:hover{
+    color: rgb(69, 96, 187);
+    text-decoration: underline;
+}
+
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}

@@ -1,0 +1,8 @@
+.destaque{
+    color: rgb(69, 96, 187);
+    font-family: Pacifico, cursive;
+    font-size: 3.5rem;
+    padding: 2.1875rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
