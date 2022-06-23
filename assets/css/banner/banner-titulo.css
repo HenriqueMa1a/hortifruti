@@ -10,11 +10,11 @@
     width: 100%;
 }
 
-@media screen and (min-width:0) {
+@media screen and (min-width:0) { 
     .banner__titulo{
-        font-size: 1.1875rem;
-    }
-    
+        font-size: 2rem;
+           
+}
 }
 @media screen and (min-width:780px) {
     .banner__titulo{
