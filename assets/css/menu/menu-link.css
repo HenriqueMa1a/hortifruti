@@ -9,11 +9,10 @@
 }
 
 .menu__link.ativo{
-    color:#fdfdfd;
+    color: #D3AB7B;
 } 
-
+   
 .menu__link:hover {
-    /* color: rgb(69, 96, 187); */
     color: #D3AB7B;
     text-decoration: underline;
 }
