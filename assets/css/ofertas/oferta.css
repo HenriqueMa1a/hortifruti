@@ -1,4 +1,17 @@
 .oferta{
+    align-items: center;
+    /* background: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
     height: 200px;
-    width: 25%;
+    margin: 2%;
+    width: 30%;
+}
+
+.oferta:nth-child(3n){
+    margin-right: 1%;
+}
+
+.oferta:nth-child(3n+1){
+    margin-left: 1%;
 }

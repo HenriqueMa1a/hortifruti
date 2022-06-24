@@ -1,6 +1,9 @@
 .ofertas__container {
+    box-shadow: 1px 1px, -1px -1px, 1px -1px, -1px 1px 4px black;
+    border-top-left-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 10%;
     width: 80%;
 }
