@@ -1,7 +1,6 @@
 .oferta {
     align-items: center;
     box-shadow: 1px 1px 4px #003141;
-    ;
     display: flex;
     flex-direction: column;
     height: 220px;
@@ -11,8 +10,8 @@
 
 @media screen and (min-width:0) {
     .oferta {
-        margin: 2% 25% 0;
-        width: 50%;
+        margin: 5% 15% 0;
+        width: 70%;
     }
 
 }
