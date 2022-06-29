@@ -1,0 +1,32 @@
+.sorteio__texto {
+    background: #e3e4e6;
+    border-radius: 80px;
+    color: #243b67;
+    line-height: 1.4;
+    padding: 1rem;
+    text-shadow: 1px 1px 1px #eaebed;
+    text-align: center;
+    
+}
+.sorteio__texto:first-letter{
+    font-size: 1.8rem;
+    
+}
+
+@media screen and (min-width:0) {
+    .sorteio__texto {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .sorteio__texto {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sorteio__texto {
+        width: 30%;
+   }
+}
