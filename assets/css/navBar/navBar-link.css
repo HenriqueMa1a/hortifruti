@@ -1,0 +1,22 @@
+.navBar__link {
+    color: #003141;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1587rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navBar__link.active{
+    color: #D3AB7B;
+} 
+   
+.navBar__link:hover {
+    color: #D3AB7B;
+    text-decoration: underline;
+}
+
+.navBar__item:last-child .navBar__link {
+    margin-right: 0;
+}

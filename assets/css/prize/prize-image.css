@@ -1,0 +1,21 @@
+
+
+@media screen and (min-width:0) {
+    .prize__image {
+        
+        width: 80%;
+        
+    }
+}
+
+@media screen and (min-width:780px) {
+    .prize__image {
+        width:  45%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .prize__image {
+        width: 40%;
+   }
+}

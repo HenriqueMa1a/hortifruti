@@ -1,0 +1,14 @@
+.offers__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0;
+
+}
+@media screen and (min-width:992px) {
+    .offers__container{
+        width: 100%;
+        
+    }
+        
+}

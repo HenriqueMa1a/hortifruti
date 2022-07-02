@@ -1,0 +1,28 @@
+.prize__title {
+    color: #f28482;
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 1px rgb(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width:0) {
+    .prize__title {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .prize__title {
+        font-size: 2.8rem;
+        padding: 1.8875rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .prize__title {
+        font-size: 3.2rem;
+        padding: 2.1875rem;
+    }
+}

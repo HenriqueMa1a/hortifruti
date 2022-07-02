@@ -1,0 +1,35 @@
+.details__click {
+    background: rgb(250, 225, 225);
+    border-radius: 15px;
+    margin-right: 1rem;
+  
+}
+
+.details__click:last-child {
+    margin-right: 0;
+}
+
+
+
+
+@media screen and (min-width:0) {
+    .details__click {
+        margin-bottom: 2rem;
+        width: calc(100% - 2rem);
+        padding: 0.75rem;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .details__click {
+        padding: 1rem;
+
+    }
+}
+
+@media screen and (min-width:992px) {
+    .details__click {
+        padding: 1.25rem;
+        /* width: calc(33% - 7rem); */
+    }
+}

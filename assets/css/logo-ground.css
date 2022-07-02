@@ -1,0 +1,16 @@
+.logo__ground {
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (min-width:0) {
+    .logo__ground {
+        display: none;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .logo__ground {
+        display: block;
+    }
+}

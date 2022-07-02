@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Horti-Rio</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/crown.css">
+    <link rel="stylesheet" href="./assets/css/navBar/navBar-list.css">
+    <link rel="stylesheet" href="./assets/css/navBar/navBar-link.css">
+    <link rel="stylesheet" href="./assets/css/navBar/navBar-item.css">
+    <link rel="stylesheet" href="./assets/css/logo.css">
+    <link rel="stylesheet" href="./assets/css/details.css">
+    <link rel="stylesheet" href="./assets/css/details/details-title.css">
+    <link rel="stylesheet" href="./assets/css/details/details-container.css">
+    <link rel="stylesheet" href="./assets/css/details/detailsContainer-box.css">
+    <link rel="stylesheet" href="./assets/css/details/detailsContainerBox-description.css">
+    <link rel="stylesheet" href="./assets/css/details/detailsContainerBox-title.css">
+    <link rel="stylesheet" href="./assets/css/ground.css">
+    <link rel="stylesheet" href="./assets/css/network/network-image.css">
+    <link rel="stylesheet" href="./assets/css/network/network-list.css">
+    <link rel="stylesheet" href="./assets/css/network/network-title.css">
+    <link rel="stylesheet" href="./assets/css/network/network.css">
+    <link rel="stylesheet" href="./assets/css/logo-ground.css">
+    <link rel="stylesheet" href="./assets/css/details/details-click.css">
+    
+</head>
+
+<body>
+
+    <header class="crown">
+        <img src="./assets/img/logo.png" alt="logo crown" class="logo">
+        <nav class="navBar">
+            <ul class="navBar__list">
+                <li class="navBar__item"><a href="index.html" class="navBar__link">home</a></li>
+                <li class="navBar__item"><a href="facilities.html" class="navBar__link">facilidades</a></li>
+                <li class="navBar__item"><a href="about-us.html" class="navBar__link active">sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    
+      
+        <section class="details">
+            <h3 class="details__title">Saiba mais</h3>
+            <button onclick="otherClass(1)" onmouseover="remove(1)">1</button>
+            <button onclick="otherClass(2)" onmouseover="remove(2)">2</button>
+            <button onclick="otherClass(3)" onmouseover="remove(3)">3</button>
+            <div class="details__container">
+                <div class="detailsContainer__box detailsContainer__box--history">
+                <h4 class="detailsContainerBox__title">Nossa história</h3>
+                    <p class="detailsContainerBox__description">A primeira Loja Hortifruti Rio foi fundada no dia 16 de maio de 2010. Contava somente com o seu primeiro dono
+                        que, por sua vez, era encarregado tanto do atendimento ao cliente quanto do caixa. Nos dias de hoje, tem-se mais 10 lojas 
+                        espalhadas por todo o Rio de Janeiro, com no mínimo 25 funcionários cada uma.
+                    </p>
+                </div>
+                
+                <div class="detailsContainer__box detailsContainer__box--awards">
+                    <h4 class="detailsContainerBox__title">Premiações</h3>
+                    <p class="detailsContainerBox__description"> Estamos ganhando o prêmio de melhor qualidade no serviço prestado ao cliente oferecido 
+                    pela ANVISA (Agência Nacional de Vigilância Sanitária), o Selo: "satisfaction clear", por 5 anos consecutivos. Nossa <em>missão</em> é cada vez mais
+                    ser merecedor de mais e mais prêmios como esse por meio da satisfação de nossos clientes.
+                    </p>
+                </div>
+                <div class="detailsContainer__box detailsContainer__box--values">
+                    <h4 class="detailsContainerBox__title">Valores</h3>
+                    <p class="detailsContainerBox__description"> Qualidade de atendimento e o conforto na hora de escolher e efetuar a compra de seus produtos.
+                        Oferecemos os mais diversos itens e as mais variadas marcas em nossas prateleiras a fim de atender desde aquele que está buscando a mercadoria, mas não  sabe qual marca 
+                        levar, até o que vem decidido a levar um específico.
+                    </p>
+                </div>
+            </div>    
+        </section>
+        
+       
+        
+       
+
+
+    </main>
+
+    <footer class="ground">
+
+        <img src="./assets/img/logo-ground.png" alt="logo ground" class="logo__ground">
+        <section class="network">
+            <h4 class="network__title">Siga-nos em nossas redes sosciais</h5>
+                <div class="network__list">
+                    <a href="#"><img src="./assets/img/inst.png" alt="icon instagram" class="network__image"></a>
+                    <a href="#"><img src="./assets/img/tt.png" alt="icon twitter" class="network__image"></a>
+                    <a href="#"><img src="./assets/img/facebook.png" alt="icon facebook" class="network__image"></a>
+
+                </div>
+        </section>
+    </footer>
+    <script src="./assets/js/button.js"></script>
+
+</body>
+
+</html>

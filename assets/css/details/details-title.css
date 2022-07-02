@@ -1,0 +1,27 @@
+.details__title {
+    color: rgb(69, 96, 187);
+    font-family: Pacifico, cursive;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width:0) {
+    .details__title {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .details__title {
+        font-size: 2.8rem;
+        padding: 1.8875rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .details__title {
+        font-size: 3.5rem;
+        padding: 2.1875rem;
+    }
+}

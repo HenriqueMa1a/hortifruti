@@ -10,141 +10,146 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <title>Horti-Rio</title>
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/crown.css">
+    <link rel="stylesheet" href="./assets/css/navBar/navBar-list.css">
+    <link rel="stylesheet" href="./assets/css/navBar/navBar-link.css">
+    <link rel="stylesheet" href="./assets/css/navBar/navBar-item.css">
     <link rel="stylesheet" href="./assets/css/logo.css">
-    <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
-    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-image.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-title.css">
     <link rel="stylesheet" href="./assets/css/banner.css">
-    <link rel="stylesheet" href="./assets/css/ofertas.css">
-    <link rel="stylesheet" href="./assets/css/ofertas/oferta.css">
-    <link rel="stylesheet" href="./assets/css/ofertas/oferta-imagem.css">
-    <link rel="stylesheet" href="./assets/css/ofertas/ofertas-container.css">
-    <link rel="stylesheet" href="./assets/css/ofertas/oferta-nome.css">
-    <link rel="stylesheet" href="./assets/css/ofertas/oferta-preco.css">
-    <link rel="stylesheet" href="./assets/css/ofertas/ofertas-titulo.css">
-    <link rel="stylesheet" href="./assets/css/sorteio.css">
-    <link rel="stylesheet" href="./assets/css/sorteio/sorteio-container.css">
-    <link rel="stylesheet" href="./assets/css/sorteio/sorteio-imagem.css">
-    <link rel="stylesheet" href="./assets/css/sorteio/sorteio-texto.css">
-    <link rel="stylesheet" href="./assets/css/sorteio/sorteio-titulo.css">
-    <link rel="stylesheet" href="./assets/css/rodape.css">
-    <link rel="stylesheet" href="./assets/css/redes/rede-imagem.css">
-    <link rel="stylesheet" href="./assets/css/redes/redes-lista.css">
-    <link rel="stylesheet" href="./assets/css/redes/redes-titulo.css">
-    <link rel="stylesheet" href="./assets/css/redes/redes.css">
-    <link rel="stylesheet" href="./assets/css/logo-rodape.css">
+    <link rel="stylesheet" href="./assets/css/offers.css">
+    <link rel="stylesheet" href="./assets/css/offers/offersContainer-box.css">
+    <link rel="stylesheet" href="./assets/css/offers/offersContainerBox-image.css">
+    <link rel="stylesheet" href="./assets/css/offers/offers-container.css">
+    <link rel="stylesheet" href="./assets/css/offers/offersContainerBox-title.css">
+    <link rel="stylesheet" href="./assets/css/offers/offersContainerBox-price.css">
+    <link rel="stylesheet" href="./assets/css/offers/offers-title.css">
+    <link rel="stylesheet" href="./assets/css/prize.css">
+    <link rel="stylesheet" href="./assets/css/prize/prize-container.css">
+    <link rel="stylesheet" href="./assets/css/prize/prize-image.css">
+    <link rel="stylesheet" href="./assets/css/prize/prizeContainer-text.css">
+    <link rel="stylesheet" href="./assets/css/prize/prizeContainer-title.css">
+    <link rel="stylesheet" href="./assets/css/ground.css">
+    <link rel="stylesheet" href="./assets/css/network/network-image.css">
+    <link rel="stylesheet" href="./assets/css/network/network-list.css">
+    <link rel="stylesheet" href="./assets/css/network/network-title.css">
+    <link rel="stylesheet" href="./assets/css/network/network.css">
+    <link rel="stylesheet" href="./assets/css/logo-ground.css">>
 </head>
 
 <body>
 
-    <header class="cabecalho">
-        <img src="./assets/img/logo.png" alt="logo do cabecalho" class="logo">
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__item"><a href="index.html" class="menu__link ativo">home</a></li>
-                <li class="menu__item"><a href="facilidades.html" class="menu__link">facilidades</a></li>
-                <li class="menu__item"><a href="sobre-nos.html" class="menu__link ">sobre nós</a></li>
+    <header class="crown">
+        <img src="./assets/img/logo.png" alt="logo crown" class="logo">
+        <nav class="navBar">
+            <ul class="navBar__list">
+                <li class="navBar__item"><a href="index.html" class="navBar__link active">home</a></li>
+                <li class="navBar__item"><a href="facilities.html" class="navBar__link">facilidades</a></li>
+                <li class="navBar__item"><a href="about-us.html" class="navBar__link ">sobre nós</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="banner">
-            <div class="banner__imagem"></div>
-            <h2 class="banner__titulo">O melhor e mais completo Hortifruti da cidade!</h2>
+            <div class="banner__image"></div>
+            <h2 class="banner__title">O melhor e mais completo Hortifruti da cidade!</h2>
         </section>
 
-        <section class="ofertas">
-            <h2 class="ofertas__titulo">Ofertas da semana</h2>
-            <div class="ofertas__container">
+        <section class="offers">
+            <h2 class="offers__title">Ofertas da semana</h2>
+            <div class="offers__container">
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Alface</h3>
-                    <img src="./assets/img/ofertas/alface.jpg" alt="alface" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>,99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Alface</h3>
+                    <img src="./assets/img/boxes/alface.jpg" alt="alface" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>,99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Alho-poró</h3>
-                    <img src="./assets/img/ofertas/alho-poró.jpg" alt="alho-poró" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="box__title">Alho-poró</h3>
+                    <img src="./assets/img/boxes/alho-poró.jpg" alt="alho-poró" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Repolho roxo</h3>
-                    <img src="./assets/img/ofertas/repolho.jpg" alt="repolho roxo" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Repolho roxo</h3>
+                    <img src="./assets/img/boxes/repolho.jpg" alt="repolho roxo" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Agrião</h3>
-                    <img src="./assets/img/ofertas/agriao.jpg" alt="agriao" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Agrião</h3>
+                    <img src="./assets/img/boxes/agriao.jpg" alt="agriao" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Laranja</h3>
-                    <img src="./assets/img/ofertas/laranja.jpg" alt="laranja" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Laranja</h3>
+                    <img src="./assets/img/boxes/laranja.jpg" alt="laranja" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Maracujá</h3>
-                    <img src="./assets/img/ofertas/maracuja.jpg" alt="maracujá" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Maracujá</h3>
+                    <img src="./assets/img/boxes/maracuja.jpg" alt="maracujá" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Maçã Gala</h3>
-                    <img src="./assets/img/ofertas/maça.jpg" alt="maçã" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Maçã Gala</h3>
+                    <img src="./assets/img/boxes/maça.jpg" alt="maçã" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Morango</h3>
-                    <img src="./assets/img/ofertas/morango.jpg" alt="morango" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Morango</h3>
+                    <img src="./assets/img/boxes/morango.jpg" alt="morango" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Beterraba</h3>
-                    <img src="./assets/img/ofertas/beterraba.jpg" alt="beterraba" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Beterraba</h3>
+                    <img src="./assets/img/boxes/beterraba.jpg" alt="beterraba" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Aipim</h3>
-                    <img src="./assets/img/ofertas/aipim.jpg" alt="aipim(mandioca)" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Aipim</h3>
+                    <img src="./assets/img/boxes/aipim.jpg" alt="aipim(mandioca)" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Pimentão</h3>
-                    <img src="./assets/img/ofertas/pimentao.jpg" alt="pimentao" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Pimentão</h3>
+                    <img src="./assets/img/boxes/pimentao.jpg" alt="pimentao" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
 
-                <div class="oferta">
-                    <h3 class="oferta__nome">Chuchu</h3>
-                    <img src="./assets/img/ofertas/chuchu.jpg" alt="chuchu" class="oferta__imagem">
-                    <span class="oferta__preco"> RS <strong>2,</strong>99</span>
+                <div class="offersContainer__box">
+                    <h3 class="offersContainerBox__title">Chuchu</h3>
+                    <img src="./assets/img/boxes/chuchu.jpg" alt="chuchu" class="offersContainerBox__image">
+                    <span class="offersContainerBox__price"> RS <strong>2,</strong>99</span>
                 </div>
             </div>
         </section>
 
-        <section class="sorteio">
-            <h2 class="sorteio__titulo">Os 150 de Ouro</h2>
-            <div class="sorteio__container">
-                <img src="./assets/img/carro-propaganda.png" alt="Carro da propaganda" class="sorteio__imagem">
-                <p class="sorteio__texto">A cada R$150,00 em compras, você receberá um bilhete para
+        <section class="prize">
+            <h2 class="prize__title">Os 150 de ouro!</h2>
+            <div class="prize__container">
+                <img src="./assets/img/carro-propaganda.png" alt="Carro da propaganda" class="prizeContainer__image">
+                <p class="prizeContainer__text">A cada R$150,00 em compras, você receberá um bilhete para
                     concorrer a um carro Jeep Compass 0Km de presente da nossa rede de hortifruti. Basta você juntar as
                     notas fiscais
-                    e ir à seção de Atendimento ao Cliente em qualquer uma das lojas. O sorteio ocorrerá no mês que vem.</p>
+                    e ir à seção de Atendimento ao Cliente em qualquer uma das lojas. O sorteio ocorrerá no mês que vem.
+                </p>
             </div>
         </section>
 
@@ -154,20 +159,19 @@
 
     </main>
 
-    <footer class="rodape">
+    <footer class="ground">
 
-        <img src="./assets/img/logo-rodape.png" alt="logo do rodape" class="logo__rodape">
-        <section class="redes">
-            <h4 class="redes__titulo">Siga-nos em nossas redes sosciais</h5>
-                <div class="redes__lista">
-                    <a href="#"><img src="./assets/img/inst.png" alt="ícone do instagram" class="redes__imagem"></a>
-                    <a href="#"><img src="./assets/img/tt.png" alt="ícone do twitter" class="redes__imagem"></a>
-                    <a href="#"><img src="./assets/img/facebook.png" alt="ícone do facebook" class="redes__imagem"></a>
+        <img src="./assets/img/logo-ground.png" alt="logo ground" class="logo__ground">
+        <section class="network">
+            <h4 class="network__title">Siga-nos em nossas redes sosciais</h5>
+                <div class="network__list">
+                    <a href="#"><img src="./assets/img/inst.png" alt="icon instagram" class="network__image"></a>
+                    <a href="#"><img src="./assets/img/tt.png" alt="icon twitter" class="network__image"></a>
+                    <a href="#"><img src="./assets/img/facebook.png" alt="icon facebook" class="network__image"></a>
 
                 </div>
         </section>
     </footer>
-
 
 </body>
 

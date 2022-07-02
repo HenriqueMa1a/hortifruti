@@ -1,0 +1,29 @@
+.crown {
+    align-items: center;
+    background: #F5F4F4;
+    display: flex;
+}
+
+@media screen and (min-width:0) {
+    .crown{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    
+}
+@media screen and (min-width:780px) {
+    .crown{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    
+}
+@media screen and (min-width:992px) {
+    .crown{
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    
+}
