@@ -1,8 +1,11 @@
 .details__click {
     background: rgb(250, 225, 225);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
     margin-right: 1rem;
-  
+    transform: scale(1.1); 
 }
 
 .details__click:last-child {
@@ -15,21 +18,24 @@
 @media screen and (min-width:0) {
     .details__click {
         margin-bottom: 2rem;
-        width: calc(100% - 2rem);
-        padding: 0.75rem;
+        margin-right: 0;
+        padding: 0.5rem 1rem ;
+        width: 80%;
+        
     }
 }
 
 @media screen and (min-width:780px) {
     .details__click {
-        padding: 1rem;
-
+        padding: 1rem 0.8rem;
+        width: 25%;
     }
 }
 
+
 @media screen and (min-width:992px) {
-    .details__click {
-        padding: 1.25rem;
-        /* width: calc(33% - 7rem); */
+    .detailsContainer__box {
+        padding: 1rem 0.5rem 0;
+        width: 29%;
     }
 }

@@ -1,15 +1,14 @@
-let button1 = document.querySelector('.detailsContainer__box--history');
-let button2 = document.querySelector('.detailsContainer__box--awards');
-let button3 = document.querySelector('.detailsContainer__box--values');
+let history = document.querySelector('.detailsContainer__box--history');
+let awards = document.querySelector('.detailsContainer__box--awards');
+let values = document.querySelector('.detailsContainer__box--values');
 let button =  document.querySelector('button');
 function otherClass(c) {
-
     if (c == 1) {
-       button1.setAttribute("class", "details__click");
+       history.setAttribute("class", "details__click");
     } else if (c == 2) {
-            button2.setAttribute("class", "details__click");
+            awards.setAttribute("class", "details__click");
         } else if (c == 3) {
-                button3.setAttribute("class", "details__click");
+                values.setAttribute("class", "details__click");
             }
     
 }
@@ -17,11 +16,11 @@ function otherClass(c) {
 
 function remove(c) {
    if (c == 1) {
-      button1.setAttribute("class","detailsContainer__box");
+      history.setAttribute("class","detailsContainer__box");
    } else if (c == 2) {
-           button2.setAttribute("class","detailsContainer__box");
+           awards.setAttribute("class","detailsContainer__box");
        } else if (c == 3) {
-               button3.setAttribute("class", "detailsContainer__box");
+               values.setAttribute("class", "detailsContainer__box");
            } 
 }
 

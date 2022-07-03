@@ -1,6 +1,8 @@
 .detailsContainer__box {
     background: rgb(250, 225, 225);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
     margin-right: 1rem;
     
 }
@@ -15,21 +17,22 @@
 @media screen and (min-width:0) {
     .detailsContainer__box {
         margin-bottom: 2rem;
-        width: calc(100% - 2rem);
-        padding: 0.75rem;
+        margin-right: 0;
+        padding: 0.5rem 1rem ;
+        width: 80%;
     }
 }
 
 @media screen and (min-width:780px) {
     .detailsContainer__box {
-        padding: 1rem;
-
+        padding: 1rem 0.8rem ;
+        width: 25%;
     }
 }
 
 @media screen and (min-width:992px) {
     .detailsContainer__box {
-        padding: 1.25rem;
-        width: calc(33% - 7rem);
+        padding: 1rem 0.8rem;
+        width: 29%;
     }
 }

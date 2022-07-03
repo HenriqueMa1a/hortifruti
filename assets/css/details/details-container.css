@@ -1,18 +1,21 @@
 .details__container{ 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 1em;
     padding: 2rem;
 }
 
 
 @media screen and (min-width:0) {
     .details__container{
+        align-items: center;
         flex-direction: column;
         padding: 1rem;
     }
 }
 @media screen and (min-width:780px) {
     .details__container{
+        padding: 2rem;
         flex-direction: row;
     }
 }

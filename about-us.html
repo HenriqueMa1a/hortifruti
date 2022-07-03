@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./assets/css/details/detailsContainer-box.css">
     <link rel="stylesheet" href="./assets/css/details/detailsContainerBox-description.css">
     <link rel="stylesheet" href="./assets/css/details/detailsContainerBox-title.css">
+    <link rel="stylesheet" href="./assets/css/details/detailsList-button.css">
     <link rel="stylesheet" href="./assets/css/ground.css">
     <link rel="stylesheet" href="./assets/css/network/network-image.css">
     <link rel="stylesheet" href="./assets/css/network/network-list.css">
@@ -52,9 +53,11 @@
       
         <section class="details">
             <h3 class="details__title">Saiba mais</h3>
-            <button onclick="otherClass(1)" onmouseover="remove(1)">1</button>
-            <button onclick="otherClass(2)" onmouseover="remove(2)">2</button>
-            <button onclick="otherClass(3)" onmouseover="remove(3)">3</button>
+            <div class="detailsList__button">
+                <button onclick="otherClass(1)" ondblclick="remove(1)">1</button>
+                <button onclick="otherClass(2)" ondblclick="remove(2)">2</button>
+                <button onclick="otherClass(3)" ondblclick="remove(3)">3</button>
+            </div>
             <div class="details__container">
                 <div class="detailsContainer__box detailsContainer__box--history">
                 <h4 class="detailsContainerBox__title">Nossa história</h3>

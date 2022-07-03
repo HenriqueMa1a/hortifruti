@@ -1,0 +1,17 @@
+.detailsList__button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.detailsList__button button {
+    background: #003141;
+    border: 2px solid #000000;
+    color: #fdfdfd;
+    border-radius: 100%;    
+    margin-right: 1rem;
+}
+
+.detailsList__button button:last-child{
+    margin-right: 0;
+}
